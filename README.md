@@ -1,11 +1,15 @@
 # ☄️ Simple Path Tracer
 
 <p align="center">
+    <video src="./assets/images/Demo.mp4" autoplay loop muted playsinline width="50%"></video>
+</p>
+
+**A personal exploration of light physics and OpenGL Compute Shaders.**
+
+<p align="center">
     <img src="./assets/images/Example1.png" alt="Demo" width="700">
 </p>
 
-
-**A personal exploration of light physics and OpenGL Compute Shaders.**
 
 ## 📌 Project Goals
 The goal of this project was to understand the fundamentals of Path Tracing by building a renderer from scratch. Instead of using standard rasterization, this engine simulates how light rays actually bounce in a 3D environment to produce natural shadows and reflections.
