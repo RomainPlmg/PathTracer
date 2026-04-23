@@ -1,13 +1,12 @@
+
 # ☄️ Simple Path Tracer
 
-<p align="center">
-    <video src="./assets/images/Demo.mp4" autoplay loop muted playsinline width="50%"></video>
-</p>
+https://github.com/user-attachments/assets/15570a55-1584-41d1-870e-110c473f096b
 
 **A personal exploration of light physics and OpenGL Compute Shaders.**
 
 <p align="center">
-    <img src="./assets/images/Example1.png" alt="Demo" width="700">
+    <img src="./assets/images/Example1.png" alt="Demo" width="900">
 </p>
 
 
