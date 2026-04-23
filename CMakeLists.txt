@@ -24,6 +24,7 @@ target_compile_definitions(RayTracer PRIVATE "-DASSETS_DIR=\"${CMAKE_SOURCE_DIR}
 # Dependencies
 # ============================================================================
 find_package(OpenGL REQUIRED)
+find_package(X11 REQUIRED)
 
 include(FetchContent)
 
@@ -58,4 +59,4 @@ file(GLOB IMGUI_SRC
 
 target_sources(RayTracer PRIVATE ${IMGUI_SRC})
 target_include_directories(RayTracer PRIVATE ${imgui_SOURCE_DIR} vendor/stb)
-target_link_libraries(RayTracer PUBLIC OpenGL::GL glad glfw glm::glm)
+target_link_libraries(RayTracer PUBLIC OpenGL::GL glad glfw glm::glm X11)
